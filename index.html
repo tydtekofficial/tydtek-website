@@ -1,0 +1,1291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tyd_Tek | Virus Removal Salt Lake City, UT</title>
+  <meta name="description" content="Tyd_Tek offers fast, professional virus removal and PC repair in Salt Lake City, UT. Same-day response. Remote or in-person. Free diagnosis." />
+  <meta name="keywords" content="virus removal Salt Lake City, malware removal Utah, PC repair Salt Lake City, computer repair SLC, spyware removal Utah, ransomware removal Salt Lake City, Tyd_Tek" />
+  <meta name="geo.region" content="US-UT" />
+  <meta name="geo.placename" content="Salt Lake City" />
+  <meta property="og:title" content="Tyd_Tek | Virus Removal, Salt Lake City, UT" />
+  <meta property="og:description" content="Fast, professional virus and malware removal in Salt Lake City. Same-day response. Free diagnosis. Remote or in-person." />
+  <meta property="og:type" content="website" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Tyd_Tek","description":"Professional virus and malware removal in Salt Lake City, Utah.","telephone":"801-872-3460","address":{"@type":"PostalAddress","addressLocality":"Salt Lake City","addressRegion":"UT","addressCountry":"US"},"areaServed":"Bountiful, Salt Lake City, Davis County, Salt Lake County, Weber County, Utah","priceRange":"$79-$219"}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ── TOKENS ─────────────────────────────────────────── */
+    :root {
+      --carolina: #4B9CD3;
+      --carolina-light: #7DBFE8;
+      --carolina-dark: #2A6FA8;
+      --white: #F4F9FF;
+      --black: #0A0E12;
+      --dark: #0D1117;
+      --dark-surface: #161B22;
+      --dark-border: #21262D;
+      --neon: #39FF14;
+      --neon-dim: #1A7A09;
+      --neon-glow: rgba(57,255,20,0.15);
+      --text-light: #CDD9E5;
+      --text-muted: #8B9AAB;
+      --font-mono: 'Share Tech Mono', monospace;
+      --font-display: 'Rajdhani', sans-serif;
+      --font-body: 'Inter', sans-serif;
+    }
+
+    /* ── RESET ──────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--dark);
+      color: var(--text-light);
+      font-family: var(--font-body);
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; }
+
+    /* ── PAGES ──────────────────────────────────────────── */
+    .page { display: none; min-height: 100vh; }
+    .page.active { display: block; }
+
+    /* ── NAV ────────────────────────────────────────────── */
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10,14,18,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--dark-border);
+      padding: 0 2rem;
+      display: flex; align-items: center; justify-content: space-between;
+      height: 64px;
+    }
+    .nav-logo {
+      font-family: var(--font-mono);
+      font-size: 1.3rem;
+      color: var(--carolina);
+      letter-spacing: 0.05em;
+    }
+    .nav-logo span { color: var(--neon); }
+    .nav-links { display: flex; gap: 0.25rem; }
+    .nav-links button {
+      background: none; border: none; cursor: pointer;
+      font-family: var(--font-display);
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      padding: 0.4rem 0.9rem;
+      border-radius: 4px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      transition: color 0.2s, background 0.2s;
+    }
+    .nav-links button:hover,
+    .nav-links button.active {
+      color: var(--carolina-light);
+      background: rgba(75,156,211,0.08);
+    }
+    .nav-cta {
+      background: var(--carolina) !important;
+      color: var(--black) !important;
+      padding: 0.4rem 1.1rem !important;
+    }
+    .nav-cta:hover { background: var(--carolina-light) !important; }
+
+    /* ── HERO ───────────────────────────────────────────── */
+    .hero {
+      position: relative;
+      min-height: calc(100vh - 64px);
+      display: flex; align-items: center;
+      overflow: hidden;
+      background: var(--black);
+    }
+    .hero-grid {
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(57,255,20,0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(57,255,20,0.04) 1px, transparent 1px);
+      background-size: 40px 40px;
+    }
+    .hero-glow {
+      position: absolute;
+      width: 600px; height: 600px;
+      background: radial-gradient(circle, rgba(75,156,211,0.12) 0%, transparent 70%);
+      top: -100px; right: -100px;
+      pointer-events: none;
+    }
+    .hero-glow-2 {
+      position: absolute;
+      width: 400px; height: 400px;
+      background: radial-gradient(circle, rgba(57,255,20,0.08) 0%, transparent 70%);
+      bottom: 0; left: 10%;
+      pointer-events: none;
+    }
+    .hero-content {
+      position: relative; z-index: 2;
+      max-width: 1100px; margin: 0 auto;
+      padding: 4rem 2rem;
+    }
+    .hero-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      color: var(--neon);
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+    .hero-eyebrow::before { content: '> '; }
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.8rem, 7vw, 5.5rem);
+      font-weight: 700;
+      line-height: 1.0;
+      letter-spacing: -0.01em;
+      color: var(--white);
+      margin-bottom: 1.5rem;
+    }
+    .hero-title .accent { color: var(--carolina); }
+    .hero-title .neon { color: var(--neon); }
+    .hero-sub {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 540px;
+      margin-bottom: 2.5rem;
+      line-height: 1.7;
+    }
+    .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+    .btn-primary {
+      background: var(--carolina);
+      color: var(--black);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.85rem 2rem;
+      border: none; cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-primary:hover { background: var(--carolina-light); transform: translateY(-1px); }
+    .btn-outline {
+      background: transparent;
+      color: var(--neon);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.85rem 2rem;
+      border: 1px solid var(--neon);
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-outline:hover { background: var(--neon-glow); transform: translateY(-1px); }
+
+    /* terminal block */
+    .terminal {
+      margin-top: 3rem;
+      background: var(--dark-surface);
+      border: 1px solid var(--dark-border);
+      border-radius: 8px;
+      max-width: 520px;
+      overflow: hidden;
+    }
+    .terminal-bar {
+      background: #1C2128;
+      padding: 0.6rem 1rem;
+      display: flex; gap: 0.4rem; align-items: center;
+    }
+    .dot { width: 12px; height: 12px; border-radius: 50%; }
+    .dot-r { background: #FF5F57; }
+    .dot-y { background: #FFBD2E; }
+    .dot-g { background: #28C940; }
+    .terminal-body {
+      padding: 1rem 1.2rem;
+      font-family: var(--font-mono);
+      font-size: 0.82rem;
+      line-height: 1.9;
+      color: var(--text-light);
+    }
+    .t-prompt { color: var(--neon); }
+    .t-warn { color: #FF6B6B; }
+    .t-ok { color: var(--carolina-light); }
+    .t-dim { color: var(--text-muted); }
+
+    /* stats bar */
+    .stats-bar {
+      background: var(--dark-surface);
+      border-top: 1px solid var(--dark-border);
+      border-bottom: 1px solid var(--dark-border);
+      padding: 2rem;
+    }
+    .stats-inner {
+      max-width: 1100px; margin: 0 auto;
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 2rem; text-align: center;
+    }
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--carolina);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 0.35rem;
+    }
+
+    /* ── SECTIONS ───────────────────────────────────────── */
+    section {
+      padding: 5rem 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--neon);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.1;
+      margin-bottom: 1rem;
+    }
+    .section-sub {
+      color: var(--text-muted);
+      max-width: 520px;
+      margin-bottom: 3rem;
+    }
+
+    /* ── SERVICES PAGE ──────────────────────────────────── */
+    .services-page-bg { background: var(--dark); }
+    .services-hero {
+      background: var(--black);
+      border-bottom: 1px solid var(--dark-border);
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+    }
+    .services-hero-inner { max-width: 700px; margin: 0 auto; }
+    .service-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 0;
+    }
+    .service-card {
+      background: var(--dark-surface);
+      border: 1px solid var(--dark-border);
+      border-radius: 8px;
+      padding: 2rem;
+      transition: border-color 0.25s, transform 0.2s;
+      position: relative; overflow: hidden;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute; top: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--carolina), var(--neon));
+      opacity: 0;
+      transition: opacity 0.25s;
+    }
+    .service-card:hover { border-color: var(--carolina-dark); transform: translateY(-3px); cursor: pointer; }
+    .service-card:hover::before { opacity: 1; }
+    .service-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .service-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.6rem;
+      letter-spacing: 0.03em;
+    }
+    .service-card p { color: var(--text-muted); font-size: 0.92rem; line-height: 1.65; }
+    .service-tag {
+      display: inline-block;
+      margin-top: 1rem;
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--neon);
+      background: var(--neon-glow);
+      border: 1px solid var(--neon-dim);
+      padding: 0.2rem 0.6rem;
+      border-radius: 3px;
+    }
+
+    /* ── PRICING PAGE ───────────────────────────────────── */
+    .pricing-hero {
+      background: var(--black);
+      border-bottom: 1px solid var(--dark-border);
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+    }
+    .pricing-hero-inner { max-width: 700px; margin: 0 auto; }
+    .pricing-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .pricing-card {
+      background: var(--dark-surface);
+      border: 1px solid var(--dark-border);
+      border-radius: 8px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      position: relative;
+      transition: transform 0.2s;
+    }
+    .pricing-card:hover { transform: translateY(-4px); }
+    .pricing-card.featured {
+      border-color: var(--carolina);
+      background: linear-gradient(135deg, #0D1117 0%, #0f1a27 100%);
+    }
+    .featured-badge {
+      position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+      background: var(--carolina);
+      color: var(--black);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.2rem 0.8rem;
+      border-radius: 20px;
+    }
+    .plan-name {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+    .plan-price {
+      font-family: var(--font-display);
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1;
+    }
+    .plan-price sup { font-size: 1.4rem; vertical-align: top; margin-top: 0.5rem; display: inline-block; }
+    .plan-desc { color: var(--text-muted); font-size: 0.85rem; margin: 0.5rem 0 1.5rem; }
+    .plan-features { list-style: none; text-align: left; margin-bottom: 2rem; }
+    .plan-features li {
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--dark-border);
+      font-size: 0.9rem;
+      color: var(--text-light);
+      display: flex; align-items: center; gap: 0.6rem;
+    }
+    .plan-features li::before { content: '✓'; color: var(--neon); font-weight: bold; flex-shrink: 0; }
+    .pricing-note {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 2rem;
+      font-family: var(--font-mono);
+    }
+
+    /* ── CONTACT PAGE ───────────────────────────────────── */
+    .contact-hero {
+      background: var(--black);
+      border-bottom: 1px solid var(--dark-border);
+      padding: 4rem 2rem 3rem;
+      text-align: center;
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      margin-top: 0;
+    }
+    @media (max-width: 700px) { .contact-grid { grid-template-columns: 1fr; } }
+    .contact-info h3 {
+      font-family: var(--font-display);
+      font-size: 1.4rem; font-weight: 700;
+      color: var(--white); margin-bottom: 1rem;
+    }
+    .contact-info p { color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem; }
+    .contact-item {
+      display: flex; align-items: flex-start; gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .contact-icon {
+      width: 40px; height: 40px;
+      background: var(--dark-surface);
+      border: 1px solid var(--dark-border);
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; flex-shrink: 0;
+    }
+    .contact-detail strong { display: block; color: var(--white); font-size: 0.9rem; margin-bottom: 0.2rem; }
+    .contact-detail span { color: var(--text-muted); font-size: 0.85rem; }
+    .contact-form { display: flex; flex-direction: column; gap: 1rem; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    @media (max-width: 480px) { .form-row { grid-template-columns: 1fr; } }
+    .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+    .form-group label {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--neon);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      background: var(--dark-surface);
+      border: 1px solid var(--dark-border);
+      border-radius: 4px;
+      color: var(--white);
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      padding: 0.75rem 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus { border-color: var(--carolina); }
+    .form-group textarea { min-height: 120px; resize: vertical; }
+    .form-group select option { background: var(--dark-surface); }
+    .form-submit {
+      background: var(--carolina);
+      color: var(--black);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.9rem;
+      border: none; cursor: pointer;
+      border-radius: 4px;
+      transition: background 0.2s;
+      margin-top: 0.5rem;
+    }
+    .form-submit:hover { background: var(--carolina-light); }
+
+    /* ── HOME SERVICES PREVIEW ──────────────────────────── */
+    .home-services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.2rem;
+    }
+    .home-service-card {
+      background: var(--dark-surface);
+      border: 1px solid var(--dark-border);
+      border-radius: 6px;
+      padding: 1.5rem;
+      transition: border-color 0.2s;
+    }
+    .home-service-card:hover { border-color: var(--carolina-dark); transform: translateY(-3px); }
+    .home-service-card { transition: border-color 0.2s, transform 0.2s; }
+    .home-service-card h4 {
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.4rem;
+    }
+    .home-service-card p { color: var(--text-muted); font-size: 0.87rem; }
+
+    /* ── WHY US ─────────────────────────────────────────── */
+    .why-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+    }
+    .why-item { }
+    .why-num {
+      font-family: var(--font-mono);
+      font-size: 0.75rem;
+      color: var(--neon);
+      letter-spacing: 0.1em;
+      margin-bottom: 0.5rem;
+    }
+    .why-item h4 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.4rem;
+    }
+    .why-item p { color: var(--text-muted); font-size: 0.88rem; line-height: 1.65; }
+
+    /* ── DIVIDER ────────────────────────────────────────── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--dark-border);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    /* ── CTA BAND ───────────────────────────────────────── */
+    .cta-band {
+      background: linear-gradient(135deg, var(--carolina-dark) 0%, #0f2a3f 100%);
+      border-top: 1px solid var(--carolina-dark);
+      border-bottom: 1px solid var(--carolina-dark);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .cta-band h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 0.75rem;
+    }
+    .cta-band p { color: var(--carolina-light); margin-bottom: 2rem; }
+
+    /* ── FOOTER ─────────────────────────────────────────── */
+    footer {
+      background: var(--black);
+      border-top: 1px solid var(--dark-border);
+      padding: 2rem;
+      text-align: center;
+    }
+    .footer-logo {
+      font-family: var(--font-mono);
+      font-size: 1.1rem;
+      color: var(--carolina);
+      margin-bottom: 0.75rem;
+    }
+    .footer-logo span { color: var(--neon); }
+    footer p { color: var(--text-muted); font-size: 0.8rem; }
+    .footer-links { display: flex; gap: 1.5rem; justify-content: center; margin: 1rem 0; }
+    .footer-links button {
+      background: none; border: none; cursor: pointer;
+      color: var(--text-muted); font-size: 0.82rem;
+      font-family: var(--font-body);
+      transition: color 0.2s;
+    }
+    .footer-links button:hover { color: var(--carolina-light); }
+
+    /* ── RESPONSIVE ─────────────────────────────────────── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 3rem;
+      align-items: center;
+    }
+    @media (max-width: 700px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+      .about-grid .section-label,
+      .about-grid .section-title,
+      .about-grid p,
+      .about-grid button {
+        text-align: left;
+      }
+    }
+    @media (max-width: 640px) {
+      nav { padding: 0 1rem; }
+      .nav-links button { padding: 0.35rem 0.55rem; font-size: 0.8rem; }
+      section { padding: 3.5rem 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">Tyd<span>_</span>Tek</div>
+  <div class="nav-links">
+    <button onclick="showPage('home')" class="active" id="nav-home">Home</button>
+    <button onclick="showPage('services')" id="nav-services">Services</button>
+    <button onclick="showPage('pricing')" id="nav-pricing">Pricing</button>
+    <a href="tel:8018723460" style="font-family:var(--font-mono);font-size:0.78rem;color:var(--neon);letter-spacing:0.05em;padding:0.4rem 0.7rem;align-self:center;">📞 801-872-3460</a>
+    <button onclick="showPage('contact')" id="nav-contact" class="nav-cta">Contact</button>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--  HOME PAGE                                             -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-home" class="page active">
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow-2"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Virus Removal Specialist</div>
+      <h1 class="hero-title">
+        Slow PC?<br/>
+        <span class="accent">Strange popups?</span>
+      </h1>
+      <p class="hero-sub">
+        Tyd_Tek will find the problem, remove it, and get your computer back up to your standards. And if I can't fix it, you don't pay. Simple as that. Serving Bountiful, Salt Lake City, and surrounding Davis, Salt Lake, and Weber counties, in-person or 100% remote from the comfort of your home.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="showPage('contact')">Get Help Now</button>
+        <button class="btn-outline" onclick="showPage('services')">See Services</button>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-bar">
+          <div class="dot dot-r"></div>
+          <div class="dot dot-y"></div>
+          <div class="dot dot-g"></div>
+        </div>
+        <div class="terminal-body">
+          <div><span class="t-prompt">tyd_tek@scan:~$</span> run --deep-scan</div>
+          <div class="t-warn">⚠  Threat detected: Trojan.GenericKD &nbsp;[CRITICAL]</div>
+          <div class="t-warn">⚠  Threat detected: Adware.BrowseFox &nbsp;[HIGH]</div>
+          <div class="t-warn">⚠  Threat detected: Spyware.KeyLogger &nbsp;[HIGH]</div>
+          <div class="t-dim">→  Initiating quarantine protocol...</div>
+          <div class="t-ok">✔  All threats neutralized. System clean.</div>
+          <div class="t-dim t-prompt">tyd_tek@scan:~$ <span style="animation: blink 1s step-end infinite;">█</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div>
+        <div class="stat-num">Same-Day</div>
+        <div class="stat-label">Response Guaranteed</div>
+      </div>
+      <div>
+        <div class="stat-num">Fast</div>
+        <div class="stat-label">Turnaround</div>
+      </div>
+      <div>
+        <div class="stat-num">100%</div>
+        <div class="stat-label">Satisfaction Guarantee</div>
+      </div>
+      <div>
+        <div class="stat-num">$0</div>
+        <div class="stat-label">Free Diagnosis</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES PREVIEW -->
+  <section>
+    <div class="section-label">// what we do</div>
+    <h2 class="section-title">Complete Threat Removal</h2>
+    <p class="section-sub">From ransomware to browser hijackers, Tyd_Tek handles every type of infection, remotely or in-person.</p>
+    <div class="home-services">
+      <div class="home-service-card" onclick="showPage('services')" style="cursor:pointer;">
+        <h4>🦠 Virus & Malware</h4>
+        <p>Deep-scan removal of all known virus and malware types. Your files stay intact.</p>
+        <span class="service-tag">Learn More →</span>
+      </div>
+      <div class="home-service-card" onclick="showPage('services')" style="cursor:pointer;">
+        <h4>🔒 Ransomware</h4>
+        <p>Emergency response and recovery for ransomware attacks. We move fast.</p>
+        <span class="service-tag">Learn More →</span>
+      </div>
+      <div class="home-service-card" onclick="showPage('services')" style="cursor:pointer;">
+        <h4>👁️ Spyware & Keyloggers</h4>
+        <p>Detect and eliminate hidden surveillance software stealing your data.</p>
+        <span class="service-tag">Learn More →</span>
+      </div>
+      <div class="home-service-card" onclick="showPage('services')" style="cursor:pointer;">
+        <h4>🌐 Browser Hijacking</h4>
+        <p>Restore your browser from redirects, fake extensions, and adware takeovers.</p>
+        <span class="service-tag">Learn More →</span>
+      </div>
+      <div class="home-service-card" onclick="showPage('services')" style="cursor:pointer;">
+        <h4>🛡️ Security Setup</h4>
+        <p>Post-removal protection: firewall config, antivirus install, and safe practices.</p>
+        <span class="service-tag">Learn More →</span>
+      </div>
+      <div class="home-service-card" onclick="showPage('contact')" style="cursor:pointer;">
+        <h4>⚡ Remote Support</h4>
+        <p>Prefer to stay home? We connect securely to your machine remotely and clean your system in real time, no travel needed, same great results.</p>
+        <span class="service-tag">Book Remote Session →</span>
+      </div>
+    </div>
+    <div style="margin-top:2rem;">
+      <button class="btn-primary" onclick="showPage('services')">View All Services</button>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- WHY US -->
+  <section>
+    <div class="section-label">// why tyd_tek</div>
+    <h2 class="section-title">Built Different</h2>
+    <div class="why-grid">
+      <div class="why-item">
+        <div class="why-num">01</div>
+        <h4>Straight Talk</h4>
+        <p>No upselling, no technobabble. We tell you exactly what's wrong and exactly what we'll do about it.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-num">02</div>
+        <h4>Fast Response</h4>
+        <p>Most infections are handled same-day. Remote sessions start within hours of contact.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-num">03</div>
+        <h4>Your Data Stays Yours</h4>
+        <p>We remove threats without wiping your files. Data preservation is part of the job.</p>
+      </div>
+      <div class="why-item">
+        <div class="why-num">04</div>
+        <h4>Post-Clean Protection</h4>
+        <p>Every service includes setup guidance so your machine stays clean after we're done.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+
+  <!-- REMOTE CALLOUT -->
+  <div style="background:var(--dark-surface);border-top:1px solid var(--dark-border);border-bottom:1px solid var(--dark-border);padding:2.5rem 2rem;text-align:center;">
+    <div style="max-width:700px;margin:0 auto;">
+      <div class="section-label" style="text-align:center;">// remote service available</div>
+      <h2 style="font-family:var(--font-display);font-size:1.8rem;font-weight:700;color:var(--white);margin-bottom:0.75rem;">Can't Make It In? No Problem.</h2>
+      <p style="color:var(--text-muted);margin-bottom:1.5rem;line-height:1.7;">Tyd_Tek offers fully remote virus removal sessions, we connect securely to your computer and handle everything while you watch. No travel, no dropping off your machine, no waiting. Serving clients in Bountiful, Salt Lake City, and surrounding Davis, Salt Lake, and Weber counties, plus remote clients anywhere.</p>
+      <button class="btn-outline" onclick="showPage('contact')">Book a Remote Session</button>
+    </div>
+  </div>
+
+  <!-- ABOUT TYLER -->
+  <section>
+    <div class="about-grid">
+      <div style="background:var(--dark-surface);border:1px solid var(--dark-border);border-radius:8px;padding:2rem;text-align:center;">
+        <div style="width:80px;height:80px;background:linear-gradient(135deg,var(--carolina-dark),var(--neon-dim));border-radius:50%;margin:0 auto 1rem;display:flex;align-items:center;justify-content:center;font-size:2rem;">👨‍💻</div>
+        <div style="font-family:var(--font-display);font-size:1.3rem;font-weight:700;color:var(--white);">Tyler</div>
+        <div style="font-family:var(--font-mono);font-size:0.75rem;color:var(--neon);letter-spacing:0.1em;margin-top:0.25rem;">FOUNDER, TYD_TEK</div>
+        <div style="margin-top:1rem;padding-top:1rem;border-top:1px solid var(--dark-border);">
+          <div style="font-size:0.8rem;color:var(--text-muted);">Based in</div>
+          <div style="color:var(--carolina-light);font-size:0.9rem;">Bountiful, Utah</div>
+        </div>
+        <div style="margin-top:0.75rem;">
+          <div style="font-size:0.8rem;color:var(--text-muted);">Experience</div>
+          <div style="color:var(--carolina-light);font-size:0.9rem;">5+ Years IT</div>
+        </div>
+      </div>
+      <div>
+        <div class="section-label">// about</div>
+        <h2 class="section-title">The Person Behind Tyd_Tek</h2>
+        <p style="color:var(--text-muted);line-height:1.8;margin-bottom:1.25rem;">Hey, I'm Tyler, the person behind Tyd_Tek. I'm a 35-year-old guy from Bountiful who's been taking computers apart, putting them back together, and figuring out how things work since I can remember. No formal degree, no big tech school, just five-plus years of diving headfirst into real problems and not coming up for air until they were fixed.</p>
+        <p style="color:var(--text-muted);line-height:1.8;margin-bottom:1.25rem;">I've worked in IT environments where mistakes aren't an option, from federal government systems to healthcare networks handling thousands of machines. That kind of experience changes how you approach every problem, big or small, and how to actually fix things instead of just making them look fixed.</p>
+        <p style="color:var(--text-muted);line-height:1.8;margin-bottom:1.25rem;">My love for all things tech comes straight from my dad. He's been in IT for over 50 years and is still going strong as a software engineer. Growing up around that kind of passion for technology has a way of getting into your blood.</p>
+        <p style="color:var(--text-muted);line-height:1.8;margin-bottom:1.5rem;">I started Tyd_Tek because I got tired of seeing people stressed out over a virus or a slow machine with nowhere to turn, or worse, getting taken advantage of by someone who charged a fortune and explained nothing. That's not how I operate. You'll always know what's wrong, what I'm doing about it, and what it'll cost before I touch anything. That's just how it should be.</p>
+        <button class="btn-primary" onclick="showPage('contact')">Get in Touch</button>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider" />
+
+  <!-- LEAD MAGNET -->
+  <div style="background:linear-gradient(135deg,#0D1117 0%,#0f1f12 100%);border-top:1px solid var(--neon-dim);border-bottom:1px solid var(--neon-dim);padding:4rem 2rem;">
+    <div style="max-width:700px;margin:0 auto;text-align:center;">
+      <div class="section-label" style="text-align:center;">// free download</div>
+      <h2 style="font-family:var(--font-display);font-size:clamp(1.6rem,3.5vw,2.4rem);font-weight:700;color:var(--white);margin-bottom:0.75rem;">Is Your PC Running Slower Than It Should?</h2>
+      <p style="color:var(--text-muted);margin-bottom:2rem;line-height:1.7;">Get the free report: <strong style="color:var(--neon);">"10 Best Ways to Fix a Slow PC Right Now"</strong> delivered straight to your inbox. No fluff, no sales pitch, just real fixes that work.</p>
+      <div id="lead-form" style="display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center;max-width:480px;margin:0 auto;">
+        <input type="email" id="lead-email" placeholder="Enter your email address" style="flex:1;min-width:220px;background:var(--dark-surface);border:1px solid var(--dark-border);border-radius:4px;color:var(--white);font-family:var(--font-body);font-size:0.9rem;padding:0.75rem 1rem;outline:none;" />
+        <button onclick="submitLead()" style="background:var(--neon);color:var(--black);font-family:var(--font-display);font-weight:700;font-size:0.95rem;letter-spacing:0.06em;text-transform:uppercase;padding:0.75rem 1.5rem;border:none;cursor:pointer;border-radius:4px;white-space:nowrap;">Send It Free</button>
+      </div>
+      <div id="lead-error" style="display:none;color:#FF6B6B;font-family:var(--font-mono);font-size:0.78rem;margin-top:0.5rem;"></div>
+      <div id="lead-success" style="display:none;margin-top:1rem;">
+        <p style="color:var(--neon);font-family:var(--font-mono);font-size:0.9rem;">✔ Check your inbox! The report is on its way.</p>
+      </div>
+      <p style="color:var(--text-muted);font-size:0.75rem;margin-top:1rem;font-family:var(--font-mono);">// No spam. Unsubscribe anytime. Your email stays private.</p>
+    </div>
+  </div>
+
+  <div class="cta-band">
+    <h2>Think your PC might be infected?</h2>
+    <p>Don't wait, malware spreads and steals data every minute it's active.</p>
+    <button class="btn-primary" onclick="showPage('contact')">Contact Tyd_Tek Today</button>
+  </div>
+
+  <footer>
+    <div class="footer-logo">Tyd<span>_</span>Tek</div>
+    <div class="footer-links">
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('services')">Services</button>
+      <button onclick="showPage('pricing')">Pricing</button>
+      <button onclick="showPage('contact')">Contact</button>
+    </div>
+    <p>© 2026 Tyd_Tek. All rights reserved. Professional virus removal services.</p>
+  </footer>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--  SERVICES PAGE                                         -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-services" class="page services-page-bg">
+  <div class="services-hero">
+    <div class="services-hero-inner">
+      <div class="section-label" style="text-align:center;">// services</div>
+      <h1 class="section-title" style="text-align:center;">What Tyd_Tek Removes</h1>
+      <p style="color:var(--text-muted); font-size:1rem; line-height:1.7;">Every threat is different. We have the tools and knowledge to handle all of them, from common adware to sophisticated rootkits.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="service-cards">
+
+      <div class="service-card" onclick="showPage('contact')" style="cursor:pointer;">
+        <div class="service-icon">🦠</div>
+        <h3>Virus & Malware Removal</h3>
+        <p>Full system scan and removal of viruses, trojans, worms, and all malware types. We use industry-leading tools combined with manual review to ensure nothing hides.</p>
+        <span class="service-tag">MOST COMMON</span>
+      </div>
+
+      <div class="service-card" onclick="showPage('contact')" style="cursor:pointer;">
+        <div class="service-icon">🔒</div>
+        <h3>Ransomware Response</h3>
+        <p>Emergency response for ransomware infections. We stop the encryption process, remove the ransomware, and work to recover your files without paying the ransom.</p>
+        <span class="service-tag">URGENT</span>
+      </div>
+
+      <div class="service-card" onclick="showPage('contact')" style="cursor:pointer;">
+        <div class="service-icon">👁️</div>
+        <h3>Spyware & Keylogger Removal</h3>
+        <p>Hidden software tracking your keystrokes, capturing passwords, and sending your personal data to bad actors. We find it, kill it, and secure your accounts.</p>
+        <span class="service-tag">DATA THEFT</span>
+      </div>
+
+      <div class="service-card" onclick="showPage('contact')" style="cursor:pointer;">
+        <div class="service-icon">🌐</div>
+        <h3>Browser Hijack Cleanup</h3>
+        <p>Restore your browser from fake search engines, unwanted extensions, redirect loops, and adware that has taken over your internet experience.</p>
+        <span class="service-tag">BROWSER</span>
+      </div>
+
+      <div class="service-card" onclick="showPage('contact')" style="cursor:pointer;">
+        <div class="service-icon">⚙️</div>
+        <h3>Rootkit Detection & Removal</h3>
+        <p>Rootkits hide deep in your system, often invisible to standard antivirus. We use specialized detection tools to expose and remove them at the root level.</p>
+        <span class="service-tag">ADVANCED</span>
+      </div>
+
+      <div class="service-card" onclick="showPage('contact')" style="cursor:pointer;">
+        <div class="service-icon">📧</div>
+        <h3>Phishing & PUP Cleanup</h3>
+        <p>Removal of potentially unwanted programs (PUPs) installed through deceptive installers, fake software, or phishing links, and guidance to prevent reinfection.</p>
+        <span class="service-tag">PREVENTION</span>
+      </div>
+
+      <div class="service-card" onclick="showPage('contact')" style="cursor:pointer;">
+        <div class="service-icon">🛡️</div>
+        <h3>Security Hardening</h3>
+        <p>After removal, we configure your firewall, install reputable antivirus, update your OS, and walk you through safe computing habits to keep you clean.</p>
+        <span class="service-tag">POST-CLEAN</span>
+      </div>
+
+      <div class="service-card" onclick="showPage('contact')" style="cursor:pointer;">
+        <div class="service-icon">⚡</div>
+        <h3>Remote Support Sessions</h3>
+        <p>Can't come in? We connect securely to your machine over a remote desktop session and perform the full cleanup without you leaving your home or office.</p>
+        <span class="service-tag">REMOTE</span>
+      </div>
+
+      <div class="service-card" onclick="showPage('contact')" style="cursor:pointer;">
+        <div class="service-icon">💾</div>
+        <h3>Data Backup Before Cleaning</h3>
+        <p>Before we touch anything, we back up your important files. Your data's safety is priority one, cleaning is always done with preservation in mind.</p>
+        <span class="service-tag">INCLUDED</span>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="cta-band">
+    <h2>Not sure what you're dealing with?</h2>
+    <p>Describe your symptoms and we'll diagnose it for you, no charge for the consultation.</p>
+    <button class="btn-primary" onclick="showPage('contact')">Get a Free Diagnosis</button>
+  </div>
+
+  <footer>
+    <div class="footer-logo">Tyd<span>_</span>Tek</div>
+    <div class="footer-links">
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('services')">Services</button>
+      <button onclick="showPage('pricing')">Pricing</button>
+      <button onclick="showPage('contact')">Contact</button>
+    </div>
+    <p>© 2026 Tyd_Tek. All rights reserved.</p>
+  </footer>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--  PRICING PAGE                                          -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-pricing" class="page">
+  <div class="pricing-hero">
+    <div class="pricing-hero-inner">
+      <div class="section-label" style="text-align:center;">// pricing</div>
+      <h1 class="section-title" style="text-align:center;">Transparent Pricing</h1>
+      <p style="color:var(--text-muted);">No hidden fees. No surprise charges. You know the cost before we start.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="pricing-cards">
+
+      <div class="pricing-card">
+        <div class="plan-name">Basic</div>
+        <div class="plan-price"><sup>$</sup>79</div>
+        <div class="plan-desc">Standard virus & malware removal</div>
+        <ul class="plan-features">
+          <li>Full malware scan & removal</li>
+          <li>Adware & PUP cleanup</li>
+          <li>Browser cleanup</li>
+          <li>Basic security check</li>
+          <li>Remote or in-person</li>
+        </ul>
+        <button class="btn-primary" style="width:100%;" onclick="showPage('contact')">Get Started</button>
+      </div>
+
+      <div class="pricing-card featured">
+        <div class="featured-badge">Most Popular</div>
+        <div class="plan-name">Complete</div>
+        <div class="plan-price"><sup>$</sup>139</div>
+        <div class="plan-desc">Full removal + protection setup</div>
+        <ul class="plan-features">
+          <li>Everything in Basic</li>
+          <li>Rootkit & spyware removal</li>
+          <li>Keylogger detection</li>
+          <li>Antivirus installation & config</li>
+          <li>Firewall hardening</li>
+          <li>30-day follow-up via text or email</li>
+        </ul>
+        <button class="btn-primary" style="width:100%;" onclick="showPage('contact')">Get Started</button>
+      </div>
+
+      <div class="pricing-card">
+        <div class="plan-name">Emergency</div>
+        <div class="plan-price"><sup>$</sup>219</div>
+        <div class="plan-desc">Ransomware & critical threats</div>
+        <ul class="plan-features">
+          <li>Everything in Complete</li>
+          <li>Ransomware emergency response</li>
+          <li>File recovery attempt</li>
+          <li>Data backup before cleaning</li>
+          <li>Priority same-day scheduling</li>
+          <li>60-day follow-up via text or email</li>
+        </ul>
+        <button class="btn-primary" style="width:100%;" onclick="showPage('contact')">Get Started</button>
+        <p style="color:var(--text-muted);font-size:0.8rem;text-align:center;margin-top:1rem;font-family:var(--font-mono);">// Not sure if you need this plan? Reach out first and we'll figure it out together. No obligation.</p>
+      </div>
+
+    </div>
+    <p class="pricing-note">// All prices are flat-rate. $25 diagnostic fee, waived if we fix it. If the job takes longer, you don't pay more. Have questions? <button onclick="showPage('contact')" style="background:none;border:none;cursor:pointer;color:var(--carolina-light);font-family:var(--font-mono);font-size:0.85rem;text-decoration:underline;">Contact us.</button></p>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="section-label">// common questions</div>
+    <h2 class="section-title">FAQ</h2>
+    <div style="display:grid; gap:1.2rem; max-width:700px;">
+      <div style="background:var(--dark-surface);border:1px solid var(--dark-border);border-radius:6px;padding:1.5rem;">
+        <strong style="color:var(--white);font-family:var(--font-display);">Do you offer remote service?</strong>
+        <p style="color:var(--text-muted);margin-top:0.5rem;font-size:0.9rem;">Yes. All plans are available remotely. We use a secure, encrypted remote desktop connection, you can watch everything we do in real time.</p>
+      </div>
+      <div style="background:var(--dark-surface);border:1px solid var(--dark-border);border-radius:6px;padding:1.5rem;">
+        <strong style="color:var(--white);font-family:var(--font-display);">Will my files be deleted?</strong>
+        <p style="color:var(--text-muted);margin-top:0.5rem;font-size:0.9rem;">No. We remove threats, not your data. On Emergency plans, we back up your files before starting. On all plans, we take care to preserve your documents, photos, and settings.</p>
+      </div>
+      <div style="background:var(--dark-surface);border:1px solid var(--dark-border);border-radius:6px;padding:1.5rem;">
+        <strong style="color:var(--white);font-family:var(--font-display);">What if the virus comes back?</strong>
+        <p style="color:var(--text-muted);margin-top:0.5rem;font-size:0.9rem;">Complete and Emergency plans include follow-up support. If the same threat returns within the support window, we fix it again at no charge.</p>
+      </div>
+      <div style="background:var(--dark-surface);border:1px solid var(--dark-border);border-radius:6px;padding:1.5rem;">
+        <strong style="color:var(--white);font-family:var(--font-display);">How do I pay?</strong>
+        <p style="color:var(--text-muted);margin-top:0.5rem;font-size:0.9rem;">Payment is due after the job is complete and you're satisfied. We accept cash, Venmo, Cash App, and major credit/debit cards.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-band">
+    <h2>Ready to get your PC cleaned?</h2>
+    <p>Pick a plan and reach out, we'll get you scheduled today.</p>
+    <button class="btn-primary" onclick="showPage('contact')">Contact Tyd_Tek</button>
+  </div>
+
+  <footer>
+    <div class="footer-logo">Tyd<span>_</span>Tek</div>
+    <div class="footer-links">
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('services')">Services</button>
+      <button onclick="showPage('pricing')">Pricing</button>
+      <button onclick="showPage('contact')">Contact</button>
+    </div>
+    <p>© 2026 Tyd_Tek. All rights reserved.</p>
+  </footer>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════ -->
+<!--  CONTACT PAGE                                          -->
+<!-- ═══════════════════════════════════════════════════════ -->
+<div id="page-contact" class="page">
+  <div class="contact-hero">
+    <div style="max-width:700px;margin:0 auto;">
+      <div class="section-label" style="text-align:center;">// contact</div>
+      <h1 class="section-title" style="text-align:center;">Let's Fix Your PC</h1>
+      <p style="color:var(--text-muted);">Fill out the form below and we'll get back to you within a few hours. Urgent issue? Mark it as Emergency.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p>We respond same business day, usually within a few hours. Urgent? Call or text directly.</p>
+
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div class="contact-detail">
+            <strong>Email</strong>
+            <span>tydtek.help@gmail.com</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-detail">
+            <strong>Call or Text</strong>
+            <span><a href="tel:8018723460" style="color:var(--carolina-light);">801-872-3460</a></span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">💬</div>
+          <div class="contact-detail">
+            <strong>Response Time</strong>
+            <span>Same business day</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">⚡</div>
+          <div class="contact-detail">
+            <strong>Emergency Line</strong>
+            <span>Mark your request as Emergency for same-day priority</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🌐</div>
+          <div class="contact-detail">
+            <strong>Remote Sessions</strong>
+            <span>Available daily, no travel required</span>
+          </div>
+        </div>
+
+        <div style="margin-top:2rem;padding:1.5rem;background:var(--dark-surface);border:1px solid var(--dark-border);border-radius:6px;">
+          <div class="section-label" style="margin-bottom:0.5rem;">// symptoms checklist</div>
+          <p style="color:var(--text-muted);font-size:0.85rem;line-height:1.8;">
+            🔴 PC running extremely slow<br/>
+            🔴 Unexpected popups or ads<br/>
+            🔴 Browser homepage changed<br/>
+            🔴 Files locked or encrypted<br/>
+            🔴 Antivirus disabled itself<br/>
+            🔴 Unknown programs installed<br/>
+            🟢 Any of these? <strong style="color:var(--carolina-light);">Contact us now.</strong>
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div data-fs-success style="display:none;text-align:center;padding:3rem 2rem;background:var(--dark-surface);border:1px solid var(--dark-border);border-radius:8px;">
+          <div style="font-size:2.5rem;margin-bottom:1rem;">&#x2705;</div>
+          <h3 style="font-family:var(--font-display);color:var(--white);font-size:1.4rem;margin-bottom:0.5rem;">Message Sent!</h3>
+          <p style="color:var(--text-muted);">John Doe will get back to you same business day. Check your email for confirmation.</p>
+        </div>
+        <div data-fs-error style="color:#FF6B6B;font-family:var(--font-mono);font-size:0.8rem;padding:0.5rem 0;margin-bottom:0.5rem;"></div>
+        <form id="tydtek-contact-form" class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="f-first">First Name</label>
+              <input type="text" id="f-first" name="first_name" placeholder="First Name" required data-fs-field />
+              <span data-fs-error="first_name" style="color:#FF6B6B;font-size:0.78rem;font-family:var(--font-mono);"></span>
+            </div>
+            <div class="form-group">
+              <label for="f-last">Last Name</label>
+              <input type="text" id="f-last" name="last_name" placeholder="Last Name" data-fs-field />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="f-email">Email</label>
+            <input type="email" id="f-email" name="email" placeholder="you@example.com" required data-fs-field />
+            <span data-fs-error="email" style="color:#FF6B6B;font-size:0.78rem;font-family:var(--font-mono);"></span>
+          </div>
+          <div class="form-group">
+            <label for="f-phone">Phone Number (for calls or texts)</label>
+            <input type="tel" id="f-phone" name="phone" placeholder="801-555-1234" data-fs-field />
+          </div>
+          <div class="form-group">
+            <label for="f-device">What type of device?</label>
+            <select id="f-device" name="device_type" data-fs-field>
+              <option value="">Select device type...</option>
+              <option>Windows PC (desktop)</option>
+              <option>Windows Laptop</option>
+              <option>Mac</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="f-message">What's happening?</label>
+            <textarea id="f-message" name="message" placeholder="Describe what you're seeing, popups, slowdowns, locked files, strange behavior, anything unusual..." data-fs-field></textarea>
+            <span data-fs-error="message" style="color:#FF6B6B;font-size:0.78rem;font-family:var(--font-mono);"></span>
+          </div>
+          <div class="form-group">
+            <label for="f-duration">How long has this been going on?</label>
+            <select id="f-duration" name="duration" data-fs-field>
+              <option value="">Select timeframe...</option>
+              <option>Just started today</option>
+              <option>A few days</option>
+              <option>A week or more</option>
+              <option>Not sure</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="f-urgency">How urgent is this for you?</label>
+            <select id="f-urgency" name="urgency" data-fs-field>
+              <option value="">Select urgency...</option>
+              <option>I can wait a few days</option>
+              <option>I need help within 24 hours</option>
+              <option>My device is completely unusable right now</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="f-contact-pref">Preferred Contact Method</label>
+            <select id="f-contact-pref" name="contact_preference" data-fs-field>
+              <option>Email</option>
+              <option>Text message</option>
+              <option>Remote session link</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="f-screenshot">Attach a Screenshot (optional)</label>
+            <input type="file" id="f-screenshot" name="screenshot" accept="image/*,.png,.jpg,.jpeg,.gif,.webp" style="background:var(--dark-surface);border:1px solid var(--dark-border);border-radius:4px;color:var(--text-muted);font-family:var(--font-body);font-size:0.85rem;padding:0.6rem 1rem;width:100%;cursor:pointer;" />
+            <span style="color:var(--text-muted);font-size:0.75rem;font-family:var(--font-mono);">// If it's easier than describing it, attach a screenshot of the error, popup, or locked screen.</span>
+          </div>
+          <input type="text" name="_gotcha" style="display:none;" tabindex="-1" autocomplete="off" />
+          <button type="submit" class="form-submit" data-fs-submit-btn>Send Message &#8594;</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-logo">Tyd<span>_</span>Tek</div>
+    <div class="footer-links">
+      <button onclick="showPage('home')">Home</button>
+      <button onclick="showPage('services')">Services</button>
+      <button onclick="showPage('pricing')">Pricing</button>
+      <button onclick="showPage('contact')">Contact</button>
+    </div>
+    <p>© 2026 Tyd_Tek. All rights reserved.</p>
+  </footer>
+</div>
+
+<style>
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+</style>
+
+<script>
+  function showPage(name) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('.nav-links button').forEach(b => b.classList.remove('active'));
+    document.getElementById('page-' + name).classList.add('active');
+    document.getElementById('nav-' + name).classList.add('active');
+    window.scrollTo(0, 0);
+  }
+
+
+  async function submitLead() {
+    const email = document.getElementById('lead-email').value.trim();
+    const errEl = document.getElementById('lead-error');
+    errEl.style.display = 'none';
+
+    if (!email || !/^[^@]+@[^@]+\.[^@]+$/.test(email)) {
+      errEl.textContent = '// Please enter a valid email address.';
+      errEl.style.display = 'block';
+      return;
+    }
+
+    // ── REPLACE WITH YOUR MAILCHIMP/MAILERLITE ENDPOINT ──
+    // For now, submits to Formspree as a lead capture
+    const formData = new FormData();
+    formData.append('email', email);
+    formData.append('type', 'Lead Magnet: 10 Best Ways to Fix a Slow PC');
+
+    try {
+      const res = await fetch('https://formspree.io/f/xnjeypvb', {
+        method: 'POST',
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      });
+      if (res.ok) {
+        document.getElementById('lead-form').style.display = 'none';
+        document.getElementById('lead-success').style.display = 'block';
+      } else {
+        errEl.textContent = '// Something went wrong. Please try again.';
+        errEl.style.display = 'block';
+      }
+    } catch(e) {
+      errEl.textContent = '// Network error. Please try again.';
+      errEl.style.display = 'block';
+    }
+  }
+
+  // Formspree vanilla JS SDK
+  window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+  formspree('initForm', { formElement: '#tydtek-contact-form', formId: 'xnjeypvb' });
+</script>
+
+<!-- MOBILE FLOATING CALL BUTTON -->
+<a href="tel:8018723460" id="mobile-call-btn" aria-label="Call or text Tyd_Tek">
+  <span>📞</span> Call or Text
+</a>
+<style>
+  #mobile-call-btn {
+    display: none;
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background: var(--neon);
+    color: var(--black);
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.85rem 2rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 24px rgba(57,255,20,0.35);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background 0.2s, transform 0.2s;
+  }
+  #mobile-call-btn:hover { background: #5fff3a; transform: translateX(-50%) translateY(-2px); }
+  @media (max-width: 768px) {
+    #mobile-call-btn { display: flex; align-items: center; gap: 0.5rem; }
+    body { padding-bottom: 5rem; }
+  }
+</style>
+<script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+</body>
+</html>
